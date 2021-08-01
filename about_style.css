@@ -1,0 +1,84 @@
+body{
+    background-image: url('image_search_1626944346481.png');
+    background-size: 1300px;
+    background-position: center;
+    overflow-y: hidden;
+}
+.image{
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    clip-path: circle(35.3% at 51% 46%);
+    overflow: hidden;
+    border-color: black;
+    border-style: groove;
+    border-width: 7px;
+}
+.intro{
+    text-align: center;
+    color:rgb(5, 5, 5);
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 0px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.intro::before{
+    content: "";
+    background-color: rgba(250, 250, 250, 0.466);
+    background-size: cover;
+    position: absolute;
+    top: 14%;
+    right: 30%;
+    bottom: 75px;
+    left: 30%;
+    opacity: 0.15;
+}
+
+.navigation{
+    margin-top: 10px;
+    text-align: right;
+    word-spacing: 20px;
+    padding:5px; 
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(233, 223, 223, 0.041);
+}
+.a:hover{
+    color: crimson;
+}
+.c:hover{
+    color: crimson;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: rgba(245, 245, 245, 0.212);
+}
+.a,.c{
+    color: black;
+}
+.a{
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: rgba(51, 8, 153, 0.836);
+}
+.connect{
+    text-align:center;
+    word-spacing: 20px;
+    background-color: rgba(0, 0, 0, 0.377);
+    padding: 5px;
+}
+.pic{
+    border-color: black;
+    border-style:groove;
+    border-radius: 10px;
+    border-width: 2px;
+    transition: width 0.3s ,height 0.3s;
+}
+.pic:hover{
+    width: 35px;
+    height: 35px;
+}
+
