@@ -1,0 +1,54 @@
+body{
+    background-image: url('image_search_1626944346481.png');
+    background-size: 1340px;
+    background-position: center;
+    overflow:hidden;
+}
+.navigation{
+    margin-top: 10px;
+    text-align: right;
+    word-spacing: 20px;
+    padding:5px; 
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgba(233, 223, 223, 0.041);
+    overflow: hidden;
+}
+.a,.c{
+    color: black;
+}
+.c:hover{
+    color: crimson;
+    background-color: rgba(51, 8, 153, 0.836);
+}
+.a:hover{
+    color: crimson;
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: rgba(245, 245, 245, 0.212);
+}
+.c{
+    padding-top:5px;
+    padding-bottom:5px;
+    background-color: rgba(51, 8, 153, 0.836);
+}
+.connect{
+    margin-top: 70px;
+    padding:50px;
+    text-align:center;
+    word-spacing: 50px;
+    line-height: 100px;
+}
+.pic{
+    
+    border-color: black;
+    border-style:groove;
+    border-radius: 10px;
+    border-width: 2px;
+    transition: width 0.4s,height 0.4s;
+}
+.pic:hover{
+    opacity: 0.75;
+    width: 130px;
+    height: 130px;
+}
