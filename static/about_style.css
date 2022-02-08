@@ -11,11 +11,12 @@
 }
 .navbar{
     width: 90%;
-    margin: auto;
-    padding: 5px 0;
+    margin:auto;
+    padding: 2px 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
 }
 .logo{
     width: 120px;
@@ -39,9 +40,9 @@
 }
 .photo{
     margin:30px 0 0 44%;
-    width: 160px;
-    height: 160px;
-    background-image: linear-gradient(rgb(93, 233, 105),rgba(196, 63, 236, 0.712));
+    width: 165px;
+    height: 165px;
+    background-image: linear-gradient(rgb(243, 240, 33),rgba(209, 66, 238, 0.712));
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -117,4 +118,31 @@
 }
 .fill:hover:before {
     bottom: 0;
+}
+.about{
+    width: 82%;
+    margin-left:10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.photo2{
+    width: 245px;
+    height: 245px;
+    margin-top: 50px;
+    background-image: linear-gradient(rgb(243, 240, 33),rgba(209, 66, 238, 0.712));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ph2{
+    margin-bottom: 70px;
+    border-radius: 50%;
+}
+/* .introduction{
+    margin-top: -50px;
+} */
+.introduction h2{
+    margin-top: 70px;
 }
