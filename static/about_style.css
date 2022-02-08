@@ -41,7 +41,7 @@
     margin:30px 0 0 44%;
     width: 160px;
     height: 160px;
-    background-image: linear-gradient(rgb(93, 233, 105),rgb(176, 115, 233));
+    background-image: linear-gradient(rgb(93, 233, 105),rgba(196, 63, 236, 0.712));
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@
     width: 170px;
     margin: 15px 43%;
     padding: 15px 0;
-    font-weight: 500;
+    font-weight: 550;
     font-size: 15px;
     background: transparent;
     color: white;
@@ -100,12 +100,11 @@
     -webkit-transition: 0.08s ease-in;
   }
   
-  .fill:hover {
+.fill:hover {
     color: white;
     border: none;
-  }
-  
-  .fill:before {
+}
+.fill:before {
     content: "";
     position: absolute;
     background: #03bba9;
@@ -114,9 +113,8 @@
     right: 0;
     top: 0;
     z-index: -1;
-    -webkit-transition: bottom 0.25s ease-in;
-  }
-  
-  .fill:hover:before {
+    -webkit-transition: bottom 0.15s ease-in;
+}
+.fill:hover:before {
     bottom: 0;
-  }
+}
