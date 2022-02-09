@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
     <link rel="stylesheet" href="static/about_style.css">
+    <script src="script.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
@@ -15,29 +16,29 @@
             <ul>
                 <li><a href="#" style="text-decoration: none; color: red;">Home</a></li>
                 <li><a href="#about"/ style="text-decoration: none;">About</a></li>
-                <li><a href="#"  style="text-decoration: none;">Skills</a></li>
+                <li><a href="#skill"/  style="text-decoration: none;" onclick="myfunction()">Skills</a></li>
                 <li><a href="#"  style="text-decoration: none;">Experience</a></li>
                 <li><a href="#"  style="text-decoration: none;">Achievements</a></li>
                 <li><a href="#" style="text-decoration: none;">Contact</a></li>
             </ul>
         </div>
         <div class="photo">
-            <img src="karan-removebg-preview.png" width="165px" height="175px" class="ph">
+            <img src="karan-removebg-preview.png" width="185px" height="195px" class="ph">
         </div>
         <br>
         <div class="intro">
-            <p class="hi">Hi! I am <span style="color: red;">Karan</span></p>
+            <p class="hi" style="text-align: center;">Hi! I am <span style="color: red;">Karan</span></p>
            <div class="title">
-               <p>|</p>
+               <p style="text-align: center;">|</p>
                <div class="slider">
                    <div>STUDENT</div>
                    <div>DEVELOPER</div>
                    <div>INVESTOR</div>
                </div>
-               <p>|</p>
+               <p style="text-align: center;">&nbsp|</p>
            </div>
         </div>
-        <div class="contact" style="height: 30px;">
+        <div class="contact">
             <a href="https://www.instagram.com/kaps2002/" target="_blank" style="text-decoration: none;"><i class="fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none;"><i class="fab fa-facebook"></i></a>
             <a href="https://twitter.com/home" target="_blank" style="text-decoration: none;"><i class="fab fa-twitter"></i></a>
@@ -62,6 +63,94 @@
             </div>
         </div>
     </div>
-</body>
+    <h1 style="color: black; text-align: center; font-weight: 600; margin-top: 30px; font-size: 60px;" id="skill">Skills</h1>
+    <div class="main-skills">
+    <div id="skills">
+        <div class="outer">
+            <div class="inner">
+                <div id="number"></div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle class="c1"  cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+    </div>
+    <div id="skills">
+        <div class="outer">
+            <div class="inner">
+                <div id="number2"></div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle class="c2" cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+    </div>
+    <div id="skills">
+        <div class="outer">
+            <div class="inner">
+                <div id="number3"></div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+            <defs>
+               <linearGradient id="GradientColor">
+                  <stop offset="0%" stop-color="#e91e63" />
+                  <stop offset="100%" stop-color="#673ab7" />
+               </linearGradient>
+            </defs>
+            <circle class="c3" cx="80" cy="80" r="70" stroke-linecap="round" />
+        </svg>
+    </div>
+    </div>
+    <script>
+        function myfunction(){
+    let number = document.getElementById("number");
+    let counter=0;
+    setInterval(() => {
+        if(counter==75){
+            clearInterval();
+        }
+        else{
+            counter+=1;
+            number.innerHTML= counter + "%";
+        }
+    }, 30);
+    let number2 = document.getElementById("number2");
+    let counter2=0;
+    setInterval(() => {
+            if(counter2==65){
+                clearInterval();
+            }
+            else{
+                counter2+=1;
+                number2.innerHTML= counter2 + "%";
+            }
+    }, 30);
+    let number3 = document.getElementById("number3");
+    let counter3=0;
+    setInterval(() => {
+            if(counter3==40){
+                clearInterval();
+            }
+            else{
+                counter3+=1;
+                number3.innerHTML= counter3 + "%";
+            }
+}, 30);
+}
 
+    </script>
+</body>
 </html>

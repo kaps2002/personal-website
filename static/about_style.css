@@ -39,9 +39,9 @@
     color: red;
 }
 .photo{
-    margin:30px 0 0 44%;
-    width: 165px;
-    height: 165px;
+    margin:0px 0 0 43%;
+    width: 185px;
+    height: 185px;
     background-image: linear-gradient(rgb(243, 240, 33),rgba(209, 66, 238, 0.712));
     border-radius: 50%;
     display: flex;
@@ -52,6 +52,7 @@
     border-radius: 50%;
 }
 .intro{
+    margin-top: 10px;
     font-family: 'Merriweather', serif;
     color: aliceblue;
     text-align: center;
@@ -73,7 +74,7 @@
     margin-left:12px ;
     color: red;
     box-sizing: border-box;
-    animation: slider 6s linear infinite;
+    animation: slider 5s linear infinite;
 }
 @keyframes slider{
     0% {margin-top: -400px;}
@@ -86,12 +87,12 @@
 }
 .contact{
     color: rgb(158, 158, 158);
-    margin: 20px 0 0 43%;
+    text-align: center;
 }
 .contact i{
     cursor: pointer;
     color: rgb(248, 246, 246);
-    width: 35px;
+    width: 50px;
 }
 .fab{
     width: 30px;
@@ -99,11 +100,10 @@
     transition: 0.3s width;
 }
 .fab:hover{
-    width:35px;
-    height: 35px;
     color: rgb(212, 36, 36);
 }
 .fill {
+    text-align: center;
     position: relative;
     width: 170px;
     margin: 15px 43%;
@@ -147,6 +147,7 @@
 .about{
     width:83%;
     margin-left:10%;
+    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -171,4 +172,96 @@
 } */
 .introduction h2{
     margin-top: 70px;
+}
+.main-skills{
+    margin:10px 0 10px 6%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ #skills{
+    width: 160px;
+    height: 160px;
+    position: relative;
+    margin: 3% 0 10% 20px;
+}
+.outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15), 
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+    padding: 36px;
+}
+.inner{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2), 
+    inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+            -0.5px -0.5px 0px rgba(255,255,255,1), 
+            0.5px 0.5px 0px rgba(0,0,0,0.15),
+            0px 12px 10px -10px rgba(0,0,0,0.5);
+    padding: 20px;
+}
+#number{
+    font-weight: 600px;
+    color: red;
+}
+#number2{
+    font-weight: 600px;
+    color: red;
+}
+#number3{
+    font-weight: 600px;
+    color: red;
+}
+ .c1{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+@keyframes anim{
+    100%{
+       stroke-dashoffset: 118;
+    }
+}
+
+.c2{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim2 2s linear forwards;
+}
+@keyframes anim2{
+    100%{
+       stroke-dashoffset: 165;
+    }
+}
+.c3{
+    fill: none;
+    stroke:url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim3 2s linear forwards;
+}
+@keyframes anim3{
+    100%{
+       stroke-dashoffset: 283;
+    }
+}
+svg{
+    position: absolute;
+    top: 37px;
+    left: 35px;
 }
