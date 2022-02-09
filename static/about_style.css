@@ -56,8 +56,33 @@
     color: aliceblue;
     text-align: center;
     font-size: 27px;
-    line-height: 50px;
+    line-height: 10px;
     text-transform: uppercase;
+}
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 100px;
+    font-weight:400;
+    text-align: center;
+    line-height: 100px;
+}
+.slider{
+    margin-left:12px ;
+    color: red;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+}
+@keyframes slider{
+    0% {margin-top: -400px;}
+    5% {margin-top: -200px;}
+    30% {margin-top: -200px;}
+    35% {margin-top: 0px;}
+    65% {margin-top: 0px;}
+    70% {margin-top: 200px;}
+    100% {margin-top: 200px;}
 }
 .contact{
     color: rgb(158, 158, 158);
@@ -120,15 +145,15 @@
     bottom: 0;
 }
 .about{
-    width: 82%;
+    width:83%;
     margin-left:10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .photo2{
-    width: 245px;
-    height: 245px;
+    width: 270px;
+    height: 270px;
     margin-top: 50px;
     background-image: linear-gradient(rgb(243, 240, 33),rgba(209, 66, 238, 0.712));
     border-radius: 50%;
@@ -140,8 +165,9 @@
     margin-bottom: 70px;
     border-radius: 50%;
 }
-/* .introduction{
-    margin-top: -50px;
+/* .introduction p{
+    margin-right: -20px;
+    line-break:strict;
 } */
 .introduction h2{
     margin-top: 70px;
