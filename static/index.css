@@ -5,13 +5,10 @@
 .banner{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.75)),url(../back.jfif);
+    position: absolute;
+    top: 0;
     background-size: cover;
     background-position:center;
-}
-#particles-js{
-    /* position: absolute; */
-    top: 0;
 }
 .navbar{
     width: 90%;
@@ -21,6 +18,12 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
+}
+#particles-js{
+    /* margin-top: -50%; */
+    /* background-image: url(); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.75)),url(../back.jfif);
+    top: 0;
 }
 .logo{
     width: 120px;
