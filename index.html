@@ -9,44 +9,47 @@
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
-<body>
+<body onload="myfunction()">
     <div class="banner">
-        <!-- <div id="particles-js"></div> -->
-        <div class="navbar">
-            <a href="#"><img src="p.png" class="logo"></a>
-            <ul>
-                <li><a href="#" style="text-decoration: none; color: red;">Home</a></li>
-                <li><a href="#about"/ style="text-decoration: none;">About</a></li>
-                <li><a href="#skill"/  style="text-decoration: none;" onclick="myfunction()">Skills</a></li>
-                <li><a href="#"  style="text-decoration: none;">Experience</a></li>
-                <li><a href="#"  style="text-decoration: none;">Achievements</a></li>
-                <li><a href="#" style="text-decoration: none;">Contact</a></li>
-            </ul>
+        <div id="particles-js">
+            <div>
+            <div class="navbar">
+                <a href="#"><img src="p.png" class="logo"></a>
+                <ul>
+                    <li><a href="#" style="text-decoration: none; color: red;">Home</a></li>
+                    <li><a href="#about"/ style="text-decoration: none;">About</a></li>
+                    <li><a href="#skill"/  style="text-decoration: none;" onclick="myfunction()">Skills</a></li>
+                    <li><a href="#"  style="text-decoration: none;">Experience</a></li>
+                    <li><a href="#"  style="text-decoration: none;">Achievements</a></li>
+                    <li><a href="#" style="text-decoration: none;">Contact</a></li>
+                </ul>
+            </div>
+            <div class="photo">
+                <img src="karan-removebg-preview.png" width="185px" height="195px" class="ph">
+            </div>
+            <br>
+            <div class="intro">
+                <p class="hi" style="text-align: center;">Hi! I am <span style="color: red;">Karan</span></p>
+                    <div class="title">
+                        <p style="text-align: center;">|</p>
+                        <div class="slider">
+                            <div>STUDENT</div>
+                            <div>DEVELOPER</div>
+                            <div>INVESTOR</div>
+                        </div>
+                    <p style="text-align: center;">&nbsp|</p>
+                    </div>
+            </div>
+            <div class="contact">
+                <a href="https://www.instagram.com/kaps2002/" target="_blank" style="text-decoration: none;"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none;"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/home" target="_blank" style="text-decoration: none;"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/kaps2002" target="_blank" style="text-decoration: none;"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/karan-pandey-b59a56215/" target="_blank" style="text-decoration: none;"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <button type="button" class="fill"><a href="resume.pdf" download style="text-decoration: none; color: aliceblue;">Download CV <i class="fas fa-download"></i></a></button>
+            </div>
         </div>
-        <div class="photo">
-            <img src="karan-removebg-preview.png" width="185px" height="195px" class="ph">
-        </div>
-        <br>
-        <div class="intro">
-            <p class="hi" style="text-align: center;">Hi! I am <span style="color: red;">Karan</span></p>
-           <div class="title">
-               <p style="text-align: center;">|</p>
-               <div class="slider">
-                   <div>STUDENT</div>
-                   <div>DEVELOPER</div>
-                   <div>INVESTOR</div>
-               </div>
-               <p style="text-align: center;">&nbsp|</p>
-           </div>
-        </div>
-        <div class="contact">
-            <a href="https://www.instagram.com/kaps2002/" target="_blank" style="text-decoration: none;"><i class="fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none;"><i class="fab fa-facebook"></i></a>
-            <a href="https://twitter.com/home" target="_blank" style="text-decoration: none;"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/kaps2002" target="_blank" style="text-decoration: none;"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/karan-pandey-b59a56215/" target="_blank" style="text-decoration: none;"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <button type="button" class="fill"><a href="resume.pdf" download style="text-decoration: none; color: aliceblue;">Download CV <i class="fas fa-download"></i></a></button>
     </div>
     <div class="aboutbanner" style="background-image: url(rain2.png);">
         <div id="about" class="about">
@@ -63,6 +66,7 @@
                 <button type="button" class="fill" style="margin-left: 1%;"><a href="resume.pdf" download style="text-decoration: none; color: rgb(0, 0, 0);">Download CV <i class="fas fa-download"></i></a></button>
             </div>
         </div>
+    
     </div>
     <h1 style="color: black; text-align: center; font-weight: 600; margin-top: 30px; font-size: 60px;" id="skill">Skills</h1>
     <div class="main-skills">
