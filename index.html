@@ -8,242 +8,275 @@
     <link rel="stylesheet" href="static/index.css">
     <script src="script.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
 </head>
 <body onload="myfunction(this)">
     <div id="particles-js">
-        <div class="banner">
+        <div id="banner">
             <div>
-            <div class="navbar">
-                <a href="#"><img src="p.png" class="logo"></a>
-                <ul>
+            <div id="navbar">
+                <a href="#"><img src="p.png" id="logo"></a>
+                <ul style="font-family:serif;">
                     <li><a href="#" style="text-decoration: none; color: red;">Home</a></li>
                     <li><a href="#about"/ style="text-decoration: none;">About</a></li>
                     <li><a href="#skill"/  style="text-decoration: none;" onclick="myfunction()">Skills</a></li>
                     <li><a href="#experience"/  style="text-decoration: none;">Experience</a></li>
-                    <li><a href="#"  style="text-decoration: none;">Achievements</a></li>
-                    <li><a href="#" style="text-decoration: none;">Contact</a></li>
+                    <li><a href="#achieve"/ style="text-decoration: none;">Certifications</a></li>
+                    <li><a href="#contact"/ style="text-decoration: none;">Contact</a></li>
                 </ul>
             </div>
-            <div class="photo">
-                <img src="karan-removebg-preview.png" width="185px" height="195px" class="ph">
+            <div id="photo">
+                <img src="karan-removebg-preview.png" width="185px" height="195px" id="ph">
             </div>
             <br>
-            <div class="intro">
-                <p class="hi" style="text-align: center;">Hi! I am <span style="color: red;">Karan</span></p>
-                    <div class="title">
-                        <p style="text-align: center;">|</p>
-                        <div class="slider">
+            <div id="intro">
+                <p id="hi" style="text-align: center;">Hi! I am <span style="color: red;">Karan</span></p>
+                    <div id="title">
+                        <div style="text-align: center;">|</div>
+                        <div id="slider">
                             <div>STUDENT</div>
                             <div>DEVELOPER</div>
                             <div>INVESTOR</div>
                         </div>
-                    <p style="text-align: center;">&nbsp|</p>
+                        <div style="text-align: center;">&nbsp|</div>
                     </div>
             </div>
-            <div class="contact">
+            <div id="contact">
                 <a href="https://www.instagram.com/kaps2002/" target="_blank" style="text-decoration: none;"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.facebook.com/" target="_blank" style="text-decoration: none;"><i class="fab fa-facebook"></i></a>
                 <a href="https://twitter.com/home" target="_blank" style="text-decoration: none;"><i class="fab fa-twitter"></i></a>
                 <a href="https://github.com/kaps2002" target="_blank" style="text-decoration: none;"><i class="fab fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/karan-pandey-b59a56215/" target="_blank" style="text-decoration: none;"><i class="fab fa-linkedin"></i></a>
             </div>
-            <button type="button" class="fill"><a href="resume.pdf" download style="text-decoration: none; color: aliceblue;">Download CV <i class="fas fa-download"></i></a></button>
+            <button type="button" id="fill"><a href="resume.pdf" download style="text-decoration: none; color: aliceblue;">Download CV <i class="fas fa-download"></i></a></button>
             </div>
         
     </div>
     </div>
 
     <div class="aboutbanner" style="background-image: url(rain2.png); background-size: cover;">
-        <div id="about" class="about">
-            <div class="photo2">
+        <div id="about">
+            <div id="photo2">
                 <img src="RoundPhoto_Feb102022_175604.png" width="300px" height="300px" class="ph2" style="margin-top: 30px;">
             </div>
-            <div class="introduction">
-                <h2 style="font-size: 35px; border-bottom: 3px solid #03bba9">About Me</h2><br>
-                <p style="font-size: 20px;">Hi! I am Karan Pandey. I live in New Delhi. I have completed my schooling <br>from Amity International School Mayur Vihar.Currently I am Studying in</p>
-                <p style="font-size: 20px;">Usict,GGSIPU and pursuing Bachelors in Electronics and Communications<br>Engineering.I am tech enthusiast and currently finding my way in Web Dev.</p>
-                <br>
-                <p style="font-size: 20px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat veritatis<br> culpa  blanditiis consequuntur nobisobcaecati repudiandae et nemo placeat <br> a iure facere dolorum accusamus, quam fuga dicta. Perspiciatis, animi qui?</p>
-                <br>
-                <button type="button" class="fill" style="margin-left: 1%;"><a href="resume.pdf" download style="text-decoration: none; color: rgb(0, 0, 0);">Download CV <i class="fas fa-download"></i></a></button>
+            <div id="introduction">
+                <p style="font-size: 35px; font-family: serif; border-bottom: 3px solid #03bba9;" id="me">About Me</p>
+                <p style="font-size: 20px; line-height: 25px;">Hi! I am Karan Pandey. I live in New Delhi. I have completed my schooling from Amity International School Mayur Vihar.Currently I am Studying in Usict,GGSIPU and pursuing Bachelors in Electronics and CommunicationsEngineering.I am tech enthusiast and currently finding my way in Web Dev.</p>
+                <p style="font-size: 20px; line-height: 25px;">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat veritatis culpa  blanditiis consequuntur nobisobcaecati repudiandae et nemo placeat a iure facere dolorum accusamus, quam fuga dicta. Perspiciatis, animi qui?</p>
+                <div style="height: 100px;" id="btnd">
+                    <button type="button" id="fill" style="margin-left: 1%;"><a href="resume.pdf" download style="text-decoration: none; color: rgb(0, 0, 0);">Download CV <i class="fas fa-download"></i></a></button>
+                </div>
             </div>
         </div>
     
     </div>
-    <h1 style="color: black; text-align: center; font-weight: 600; margin-top: 30px; font-size: 60px;" id="skill">Skills</h1>
-    <div class="main-skills" onmouseenter="myfunction(this); this.onmouseenter = null;">
-    <div id="skills">
-        <div class="outer">
-            <div class="inner">
-                <div id="number"></div>
+    <h1 style="color: black; text-align: center; font-weight: 600; margin-top: 30px; font-size: 60px; font-family:serif;" id="skill">Skills</h1>
+    <br>
+    <br>
+    <br> 
+    <center>
+    <div id="main-skills" onmouseenter="myfunction(this); this.onmouseenter = null;">
+    <div id="skills" >
+            <div id="outer">
+                <div id="inner">
+                    <div id="number"></div>
+                </div>
             </div>
-        </div>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-            <defs>
-               <linearGradient id="GradientColor">
-                  <stop offset="0%" stop-color="#e91e63" />
-                  <stop offset="100%" stop-color="#673ab7" />
-               </linearGradient>
-            </defs>
-            <circle class="c1"  cx="80" cy="80" r="70" stroke-linecap="round" id="gol"/>
-        </svg>
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                    <defs>
+                       <linearGradient id="GradientColor">
+                          <stop offset="0%" stop-color="#e91e63" />
+                          <stop offset="100%" stop-color="#673ab7" />
+                       </linearGradient>
+                    </defs>
+                    <circle class="c1"  cx="80" cy="80" r="70" stroke-linecap="round" id="gol"/>
+                </svg>
+                <br> <br>
+                <p>HTML</p>
+            </div>
+            
     </div>
     <div id="skills">
-        <div class="outer">
-            <div class="inner">
+        <div id="outer">
+            <div id="inner">
                 <div id="number2"></div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-            <defs>
-               <linearGradient id="GradientColor">
-                  <stop offset="0%" stop-color="#e91e63" />
-                  <stop offset="100%" stop-color="#673ab7" />
-               </linearGradient>
-            </defs>
-            <circle class="c2" cx="80" cy="80" r="70" stroke-linecap="round" id="gol2"/>
-        </svg>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                   <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                   </linearGradient>
+                </defs>
+                <circle class="c2"  cx="80" cy="80" r="70" stroke-linecap="round" id="gol"/>
+            </svg>
+            <br> <br>
+            <p>CSS</p>
+        </div>
     </div>
     <div id="skills">
-        <div class="outer">
-            <div class="inner">
+        <div id="outer">
+            <div id="inner">
                 <div id="number3"></div>
             </div>
         </div>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
-            <defs>
-               <linearGradient id="GradientColor">
-                  <stop offset="0%" stop-color="#e91e63" />
-                  <stop offset="100%" stop-color="#673ab7" />
-               </linearGradient>
-            </defs>
-            <circle class="c3" cx="80" cy="80" r="70" stroke-linecap="round" id="gol3" />
-        </svg>
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="160px" height="160px">
+                <defs>
+                   <linearGradient id="GradientColor">
+                      <stop offset="0%" stop-color="#e91e63" />
+                      <stop offset="100%" stop-color="#673ab7" />
+                   </linearGradient>
+                </defs>
+                <circle class="c3"  cx="80" cy="80" r="70" stroke-linecap="round" id="gol"/>
+            </svg>
+            <br> <br>
+            <p>JAVASCRIPT</p>
+        </div>
     </div>
     </div>
-    <div class="skillheading">
-        <ul>
-            <li>HTML</li>
-            <li style="padding-left: 8.7%;">CSS</li>
-            <li style="padding-left: 4%;">JAVASCRIPT</li>
-        </ul>
-    </div>
+</center>
     <div id="experience" >
-        <h1 style="color: black; text-align: center; font-weight: 600; padding-top:15px ; font-size: 50px;">My <span style="color: rgb(4, 187, 147); text-align: center;">Experience</span></h1>
+        <p style="color: black; text-align: center; font-weight: 600; padding-top:15px ; font-size: 50px; font-family: serif;">My <span style="color: rgb(4, 187, 147); text-align: center;">Experience</span></p>
         <br>
-        <div class="part">
-            <div class="col">
-                <div class="box">
+        <div id="part">
+            <div id="col">
+                <div id="box">
                     <p style="font-weight:700;">Graphic Designer</p>
-                    <p style="color: #03bba9; font-weight:600;">IEEE GGSIPU</p>
-                    <p style="color: #838282;font-weight: 570;">2020-present</p><br>
-                    <p style="font-size: 16px;font-weight: 500;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis quaerat. Eius repellat velit adipisci distinctio, nostrum officia natus voluptatem cupiditate. Porro quia error accusamus enim minima ut necessitatibus repellendus.</p>
+                    <p style="color: #03bba9; font-weight:600; margin-top: -20px;">IEEE GGSIPU</p>
+                    <p style="color: #838282;font-weight: 500; margin-top: -20px;">2020-present</p><br>
+                    <p style="font-size: 16px;font-weight: 400;  margin-top: -10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis quaerat. Eius repellat velit adipisci distinctio, nostrum officia natus voluptatem cupiditate. Porro quia error accusamus enim minima ut necessitatibus repellendus.</p>
                 </div>
                 <br>
                 <br>
-                <div class="box">
-                    <p style="font-weight: 700;">Graphic Designer</p>
-                    <p style="color: #03bba9; font-weight: 600;">IEEE GGSIPU</p>
-                    <p style="color: #838282;font-weight: 570;">2020-present</p><br>
-                    <p style="font-size: 16px;font-weight: 500;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis quaerat. Eius repellat velit adipisci distinctio, nostrum officia natus voluptatem cupiditate. Porro quia error accusamus enim minima ut necessitatibus repellendus.</p>
+                <div id="box">
+                    <p style="font-weight:700;">Graphic Designer</p>
+                    <p style="color: #03bba9; font-weight:600; margin-top: -20px;">IEEE GGSIPU</p>
+                    <p style="color: #838282;font-weight: 500; margin-top: -20px;">2020-present</p><br>
+                    <p style="font-size: 16px;font-weight: 400;  margin-top: -10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis quaerat. Eius repellat velit adipisci distinctio, nostrum officia natus voluptatem cupiditate. Porro quia error accusamus enim minima ut necessitatibus repellendus.</p>
                 </div>
             </div>
-            <div class="col">
-                <div class="box">
-                    <p style="font-weight: 700;">Graphic Designer</p>
-                    <p style="color: #03bba9; font-weight: 600;">Training And Placement Cell</p>
-                    <p style="color: #838282;font-weight: 570;">2020-present</p><br>
-                    <p style="font-size: 16px;font-weight: 500;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis quaerat. Eius repellat velit adipisci distinctio, nostrum officia natus voluptatem cupiditate. Porro quia error accusamus enim minima ut necessitatibus repellendus.</p>
+            <div id="col">
+                <div id="box">
+                    <p style="font-weight:700;">Graphic Designer</p>
+                    <p style="color: #03bba9; font-weight:600; margin-top: -20px;">TNP CELL</p>
+                    <p style="color: #838282;font-weight: 500; margin-top: -20px;">2020-present</p><br>
+                    <p style="font-size: 16px;font-weight: 400;  margin-top: -10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis quaerat. Eius repellat velit adipisci distinctio, nostrum officia natus voluptatem cupiditate. Porro quia error accusamus enim minima ut necessitatibus repellendus.</p>
                 </div>
                 <br>
                 <br>
-                <div class="box">
-                    <p style="font-weight: 700;">Graphic Designer</p>
-                    <p style="color: #03bba9; font-weight: 600;">IEEE GGSIPU</p>
-                    <p style="color: #838282;font-weight: 570;">2020-present</p><br>
-                    <p style="font-size: 16px;font-weight: 500;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis quaerat. Eius repellat velit adipisci distinctio, nostrum officia natus voluptatem cupiditate. Porro quia error accusamus enim minima ut necessitatibus repellendus.</p>
+                <div id="box">
+                    <p style="font-weight:700;">Graphic Designer</p>
+                    <p style="color: #03bba9; font-weight:600; margin-top: -20px;">IEEE GGSIPU</p>
+                    <p style="color: #838282;font-weight: 500; margin-top: -20px;">2020-present</p><br>
+                    <p style="font-size: 16px;font-weight: 400;  margin-top: -10px;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, officiis quaerat. Eius repellat velit adipisci distinctio, nostrum officia natus voluptatem cupiditate. Porro quia error accusamus enim minima ut necessitatibus repellendus.</p>
                 </div>
             </div>
             
         </div>
     </div>
-    <div class="achieve">
-        <h1 style="text-align: center; font-size: 45px; padding-top:10px ; ">My <span style="color:#03bba9;">Achievements</span></h1>
-        <input type="radio" name="position" checked />
-        <input type="radio" name="position" />
-        <input type="radio" name="position" />
-        <input type="radio" name="position" />
-        <input type="radio" name="position" />
-        <main id="carousel">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-        </main>
+    <div class="achieve" id="achieve">
+        <h1 style="text-align: center; color: aliceblue; font-family: serif; font-weight: 700;">MY <span style="text-transform: uppercase; color: #03bba9;">Certifications</span></h1>
+        <section class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                    </div>
+                    <div class="col-6 text-right">
+                        <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                            <i class="fa fa-arrow-left"></i>
+                        </a>
+                        <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators2" role="button" data-slide="next">
+                            <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="col-12">
+                        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <div class="row">
         
-            <!-- <div class="flexs">
-                <div class="card">
-                    <img src="team1.png" alt="Avatar" class="tpic">
-                    <div class="container">
-                      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor fugiat, id assumenda corporis nam excepturi porro impedit quod vero deserunt maiores aliquam delectus suscipit beatae exercitationem sapiente alias dolores sit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="team1.png" alt="Avatar" class="tpic">
-                    <div class="container">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor fugiat, id assumenda corporis nam excepturi porro impedit quod vero deserunt maiores aliquam delectus suscipit beatae exercitationem sapiente alias dolores sit.</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="team1.png" alt="Avatar" class="tpic">
-                    <div class="container">
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor fugiat, id assumenda corporis nam excepturi porro impedit quod vero deserunt maiores aliquam delectus suscipit beatae exercitationem sapiente alias dolores sit.</p>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="team1.png" >
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="team1.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="team1.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="row">
+        
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="team1.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        
+                                                </div>
+        
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="team1.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4 mb-3">
+                                            <div class="card">
+                                                <img class="img-fluid" alt="100%x280" src="team1.png">
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Special title treatment</h4>
+                                                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </section>
+    </div>
     <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>
-    <!-- <script>
-        // function myfunction(){
-            let number = document.getElementById("number");
-            let counter=0;
-            setInterval(() => {
-                if(counter==75){
-                    clearInterval();
-                }
-                else{
-                    counter+=1;
-                    number.innerHTML= counter + "%";
-                }
-            }, 30);
-        
-            let number2 = document.getElementById("number2");
-            let counter2=0;
-            setInterval(() => {
-                if(counter2==65){
-                    clearInterval();
-                }
-                else{
-                    counter2+=1;
-                    number2.innerHTML= counter2 + "%";
-                }
-            }, 30);
-        
-            let number3 = document.getElementById("number3");
-            let counter3=0;
-            setInterval(() => {
-                if(counter3==40){
-                    clearInterval();
-                }
-                else{
-                    counter3+=1;
-                    number3.innerHTML= counter3 + "%";
-                }
-            }, 30);
-        // }
-    </script> -->
-    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 </body>
 </html>
