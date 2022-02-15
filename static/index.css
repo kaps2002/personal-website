@@ -7,8 +7,7 @@
     height: 100vh;
     position: absolute;
     top: 0;
-    background-size: cover;
-    background-position:center;
+    
 }
 #navbar{
     width: 90%;
@@ -24,6 +23,11 @@
     /* background-image: url(); */
     background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.75)),url(../back.jfif);
     top: 0;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 500px;
 }
 #logo{
     width: 120px;
@@ -160,6 +164,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 /* .photo2{
     width: 270px;
@@ -195,6 +200,7 @@
     justify-content: space-between;
     margin-bottom: 10%;
     height: 200px;
+    
 }
 #skills{
     width: 160px;
