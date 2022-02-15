@@ -334,6 +334,57 @@ svg{
     background-size: cover;
     padding: 20px 0 50px 0;
 }
+.product-image {
+	transition: all 0.3s ease-out;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	float: right;
+	width: 100%;
+	display: inline-block;
+}
+.info {
+    background: rgba(51, 51, 51, 0.9);
+    transition: all 0.3s ease-out;
+    transform: translateX(-100%);
+    position: absolute;
+    line-height: 1.8;
+    text-align: center;
+    font-size: 105%;
+    cursor:auto;
+    color: #FFF;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+#seecred{
+    margin-top: 40%;
+    border-radius: 25px;
+    border: 2px solid #03bba9;
+    width: 180px;
+    height: 60px;
+    font-weight: 550;
+    font-size: 18px;
+    color: white;
+    background: transparent;
+    transition: 0.5s background;
+}
+#seecred:hover{
+    background-color: #03bba9;
+    border: none;
+}
+.info img{
+    margin-top: -3px;
+    width: 18px;
+    height: 18px;
+    color: #FFF;
+}
+.info #seecred {text-align: center}
+.product-image:hover .info{transform: translateX(0);}
+.product-image:hover img {transition: all 0.3s ease-out;}
+.product-image:hover img {transform: scale(1.2, 1.2);}
 #btnd{
     font-family:Arial, Helvetica, sans-serif;
 }
