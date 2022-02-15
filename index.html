@@ -7,6 +7,7 @@
     <title>About</title>
     <link rel="stylesheet" href="static/index.css">
     <script src="script.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
 </head>
@@ -22,7 +23,7 @@
                     <li><a href="#skill"/  style="text-decoration: none;" onclick="myfunction()">Skills</a></li>
                     <li><a href="#experience"/  style="text-decoration: none;">Experience</a></li>
                     <li><a href="#achieve"/ style="text-decoration: none;">Certifications</a></li>
-                    <li><a href="#contact"/ style="text-decoration: none;">Contact</a></li>
+                    <li><a href="#conti"/ style="text-decoration: none;">Contact</a></li>
                 </ul>
             </div>
             <div id="photo">
@@ -178,7 +179,7 @@
         </div>
     </div>
     <div class="achieve" id="achieve">
-        <h1 style="text-align: center; color: aliceblue; font-family: serif; font-weight: 700;margin-top: 2%;">MY <span style="text-transform: uppercase; color: #03bba9;">Certifications</span></h1>
+        <h1 style="text-align: center; color: aliceblue; font-family: serif; font-weight: 600;margin-top: 2%;">MY <span style="text-transform: uppercase; color: #03bba9;">Certifications</span></h1>
         <section class="pt-5 pb-5">
             <div class="container">
                 <div class="row">
@@ -301,6 +302,33 @@
                 </div>
             </div>
         </section>
+    </div>
+    <div style="background-color:aqua; padding-bottom: 20px;" id="conti" >
+        <h1 style="font-weight: 300; text-align: center; color: rgb(255, 255, 255); font-size: 100px; padding-top: 10px;">Get In Touch</h1> <br>
+        <div id="cont">
+        <form>
+            <div id="input-group">
+                <input type="text" id="name" required>
+                <label for="name"><i class="fas fa-user-alt"></i> Your Name</label>
+            </div>
+            <div id="input-group">
+                <input type="email" id="email" required>
+                <label for="email"><i class="fas fa-envelope"></i> Your Email</label>
+            </div>
+            <div id="input-group">
+                <input type="number" id="numb" required>
+                <label for="number"><i class="fas fa-phone-alt"></i> Your Number</label>
+            </div>
+            <div id="input-group">
+                <textarea id="msg" rows="8" required></textarea>
+                <label for="msg"><i class="fas fa-comment-alt"></i> Your Message</label>
+            </div>
+            <button type="submit" id="sub">Submit <i class=" fas fa-paper-plane"></i></button>
+        </form>
+        </div>
+    </div>
+    <div class="copy" style="background:black; background-size: cover;padding: 0 0 2px 0px;"> <br>
+        <p style="text-align: center; color: white;"><i class="fas fa-copyright"></i> 2021 KARAN PANDEY</p>
     </div>
     <script type="text/javascript" src="particles.js"></script>
     <script type="text/javascript" src="app.js"></script>

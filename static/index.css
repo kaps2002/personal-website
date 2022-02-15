@@ -339,6 +339,10 @@ svg{
     background-image: linear-gradient(rgba(0, 0, 0, 0.753),rgba(0, 0, 0, 0.75)),url(../snowb.jfif);
     background-size: cover;
     padding: 20px 0 50px 0;
+    background-position:center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    min-height: 700px;
 }
 .product-image {
 	transition: all 0.3s ease-out;
@@ -393,4 +397,54 @@ svg{
 .product-image:hover img {transform: scale(1.2, 1.2);}
 #btnd{
     font-family:Arial, Helvetica, sans-serif;
+}
+#cont{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 20px 10% 0 10%;
+    /* background-color:gray; */
+    padding: 10px 0 10px 10px;
+    border-radius: 15px;
+    /* border: 2px solid gray; */
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+#input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+input,textarea{
+    width: 100%;
+    padding: 10px;
+    outline:0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    padding:10px;
+    background: transparent;
+    transition: 0.2s;
+}
+#sub{
+    width: 100%;
+    padding: 10px;
+    outline:0;
+    border: 1px solid #fff;
+    color: #fff;
+    background: transparent;
+    font-size: 15px;
+}
+input:focus~label, input:valid~label,textarea:valid~label,textarea:focus~label{
+    top: -35px;
+    font-size: 13px;
+
 }
