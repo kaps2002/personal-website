@@ -107,12 +107,12 @@
     color: rgb(248, 246, 246);
     width: 50px;
 }
-.fab{
+#fab{
     width: 30px;
     height: 30px;
     transition: 0.3s width;
 }
-.fab:hover{
+#fab:hover{
     color: rgb(212, 36, 36);
 }
 #fill {
@@ -387,11 +387,11 @@ svg{
     font-size: 18px;
     color: white;
     background: transparent;
-    transition: 0.5s background;
+    transition: 0.2s background;
 }
 #seecred:hover{
     background-color: #03bba9;
-    border: none;
+    border-color: #03bba9;
 }
 .info img{
     margin-top: -3px;
