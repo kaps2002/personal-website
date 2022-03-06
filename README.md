@@ -1,7 +1,7 @@
  ## About
 Hi👋 I am Karan Pandey. This is my portfolio which i have designed and made with the help of HTML,CSS,JAVASCRIPT and BOOTSTRAP framework.
 ## Screenshots
-<img src="https://user-images.githubusercontent.com/87715967/156915181-d012ca8a-5b4f-416a-8120-3a81c9f6acd2.png"/>
+<img src="https://user-images.githubusercontent.com/87715967/156915304-ba8746a0-41d3-4bf0-b6c1-aae3e8aab7a7.png"/>
 <img src="https://user-images.githubusercontent.com/87715967/156915222-0acc58c9-89dc-4834-9f1e-d4df80dd7c28.png"/>
 <img src="https://user-images.githubusercontent.com/87715967/156915254-f77dd93e-72b2-441f-9359-c963a899bd5a.png"/>
 
