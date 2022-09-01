@@ -13,7 +13,7 @@ function myfunction(){
     let number2 = document.getElementById("number2");
     let counter2=0;
     setInterval(() => {
-            if(counter2==65){
+            if(counter2==75){
                 clearInterval();
             }
             else{
@@ -24,7 +24,7 @@ function myfunction(){
     let number3 = document.getElementById("number3");
     let counter3=0;
     setInterval(() => {
-            if(counter3==40){
+            if(counter3==65){
                 clearInterval();
             }
             else{

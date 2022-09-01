@@ -7,7 +7,6 @@
     height: 100vh;
     position: absolute;
     top: 0;
-    
 }
 #navbar{
     width: 90%;
@@ -44,7 +43,7 @@
     margin-top: -10px;
     color: rgb(253, 251, 251);
     text-transform: uppercase;
-    font-size: 17px;
+    font-size: 1.5vw;
 }
 #navbar ul li a:hover{
     color: red;
@@ -279,7 +278,7 @@ svg{
 }
 @keyframes anim2{
     100%{
-       stroke-dashoffset: 165;
+       stroke-dashoffset: 118;
     }
 }
 .c3{
@@ -292,7 +291,7 @@ svg{
 }
 @keyframes anim3{
     100%{
-       stroke-dashoffset: 283;
+       stroke-dashoffset: 168;
     }
 }
 svg{
